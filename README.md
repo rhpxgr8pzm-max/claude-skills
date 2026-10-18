@@ -16,9 +16,32 @@ installs only what it needs.
 ## Install (inside Claude Code)
 
 ```
-/plugin marketplace add <github-user>/claude-skills
+/plugin marketplace add rhpxgr8pzm-max/claude-skills
 /plugin install core@thomas-skills
+/plugin install repomix-mcp@thomas-skills
+/plugin install repomix-commands@thomas-skills
+/plugin install repomix-explorer@thomas-skills
 ```
+
+## Included plugins
+
+| Plugin | Source | What it does |
+| --- | --- | --- |
+| `core` | this repo | General-purpose skills |
+| `repomix-mcp` | yamadashy/repomix | MCP server that packs repos into one AI-friendly file (install first) |
+| `repomix-commands` | yamadashy/repomix | `/repomix-commands:pack-local`, `pack-remote` |
+| `repomix-explorer` | yamadashy/repomix | Codebase analysis agent |
+
+## Add a third-party plugin
+
+Point an entry at the other repo instead of copying it, so upstream updates flow through:
+
+```json
+{ "name": "x", "source": { "source": "git-subdir", "url": "owner/repo", "path": "path/to/plugin" } }
+```
+
+Use `"source": "github", "repo": "owner/repo"` when the plugin is the whole repo.
+Add `"ref"` or `"sha"` to pin a version.
 
 Or browse with `/plugin` → Discover. After pushing changes:
 

@@ -12,6 +12,36 @@
       "source": "./plugins/core",
       "description": "General-purpose skills used across all projects.",
       "version": "0.1.0"
+    },
+    {
+      "name": "repomix-mcp",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-mcp"
+      },
+      "description": "Repomix MCP server: pack local or remote repos into one AI-friendly file. Install first.",
+      "category": "integration"
+    },
+    {
+      "name": "repomix-commands",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-commands"
+      },
+      "description": "Repomix slash commands: /repomix-commands:pack-local and pack-remote.",
+      "category": "productivity"
+    },
+    {
+      "name": "repomix-explorer",
+      "source": {
+        "source": "git-subdir",
+        "url": "yamadashy/repomix",
+        "path": ".claude/plugins/repomix-explorer"
+      },
+      "description": "Repomix explorer agent for analysing local or remote codebases.",
+      "category": "productivity"
     }
   ]
 }
