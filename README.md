@@ -31,6 +31,7 @@ installs only what it needs.
 | `repomix-mcp` | yamadashy/repomix | MCP server that packs repos into one AI-friendly file (install first) |
 | `repomix-commands` | yamadashy/repomix | `/repomix-commands:pack-local`, `pack-remote` |
 | `repomix-explorer` | yamadashy/repomix | Codebase analysis agent |
+| `ecc` | affaan-m/ECC | Large engineering pack: ~400 skills, 71 agents, commands, 8 hooks. Hooks on by default; turn off with `/plugin configure ecc@thomas-skills` → `hooks_enabled: false` |
 
 ## Add a third-party plugin
 
