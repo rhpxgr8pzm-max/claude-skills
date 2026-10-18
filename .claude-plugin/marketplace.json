@@ -44,14 +44,10 @@
       "category": "productivity"
     },
     {
-      "name": "ecc",
-      "source": {
-        "source": "github",
-        "repo": "affaan-m/ECC"
-      },
-      "description": "ECC (affaan-m): large engineering workflow pack - agents, skills, commands, hooks and rules (TDD, code review, security).",
-      "category": "workflow",
-      "strict": false
+      "name": "tally-dev",
+      "source": "./plugins/tally-dev",
+      "description": "Skills for developing Tally (Python/Flask/SQLite), curated from ECC.",
+      "version": "0.1.0"
     }
   ]
 }
