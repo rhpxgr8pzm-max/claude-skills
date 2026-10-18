@@ -1,0 +1,17 @@
+{
+  "name": "thomas-skills",
+  "owner": {
+    "name": "Thomas"
+  },
+  "metadata": {
+    "description": "Thomas's personal Claude Code skills, packaged as installable plugins."
+  },
+  "plugins": [
+    {
+      "name": "core",
+      "source": "./plugins/core",
+      "description": "General-purpose skills used across all projects.",
+      "version": "0.1.0"
+    }
+  ]
+}
