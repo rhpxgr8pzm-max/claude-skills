@@ -20,6 +20,19 @@ Skills for developing Tally, copied unchanged from
 | `browser-qa` | Browser smoke tests of the running app (localhost:5000): console errors, forms, breakpoints, a11y |
 | `architecture-decision-records` | Record design decisions as ADRs in `docs/adr/` |
 
+## Agents
+
+| Agent | Role |
+| --- | --- |
+| `python-reviewer` | Reviews Python changes: idioms, types, security, performance |
+| `security-reviewer` | Flags secrets, unsafe input handling, injection risks |
+| `silent-failure-hunter` | Finds swallowed errors and bad fallbacks (e.g. skipped import rows) |
+| `code-simplifier` | Simplifies recently changed code without changing behaviour |
+| `planner` | Plans larger features and refactors before coding (read-only) |
+
+Agents not taken: `code-reviewer` (JS/TS-heavy, overlaps `python-reviewer`) and
+`database-reviewer` (PostgreSQL-specific).
+
 Left out on purpose: ECC's JS/React/Node-focused skills (`coding-standards`,
 `tdd-workflow`, `frontend-patterns`, `backend-patterns`, `e2e-testing`,
 `frontend-a11y`), Postgres-specific ones, and `finance-billing-ops` (SaaS billing,

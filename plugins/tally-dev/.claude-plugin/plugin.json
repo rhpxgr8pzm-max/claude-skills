@@ -1,7 +1,7 @@
 {
   "name": "tally-dev",
   "description": "Skills for developing Tally (Python/Flask/SQLite budgeting app), curated from ECC.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": {
     "name": "Thomas"
   },

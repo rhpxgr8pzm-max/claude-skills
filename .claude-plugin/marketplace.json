@@ -11,7 +11,7 @@
       "name": "core",
       "source": "./plugins/core",
       "description": "General-purpose skills used across all projects.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "name": "repomix-mcp",
@@ -46,8 +46,8 @@
     {
       "name": "tally-dev",
       "source": "./plugins/tally-dev",
-      "description": "Skills for developing Tally (Python/Flask/SQLite + web UI), curated from ECC.",
-      "version": "0.2.0"
+      "description": "Skills and review agents for developing Tally (Python/Flask/SQLite + web UI), curated from ECC.",
+      "version": "0.3.0"
     }
   ]
 }
