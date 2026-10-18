@@ -14,9 +14,16 @@ Skills for developing Tally, copied unchanged from
 | `regex-vs-llm-structured-text` | Rules-first parsing with LLM fallback: bank CSVs and transaction categorization |
 | `cost-aware-llm-pipeline` | Keeping AI categorization cheap: model routing, caching, budgets |
 | `verification-loop` | Build/lint/test/diff check before calling work done |
+| `make-interfaces-feel-better` | UI polish: spacing, typography, borders, states, motion |
+| `design-system` | Extract and keep consistent design tokens for the dark Notion-style UI |
+| `accessibility` | WCAG 2.2 AA: contrast, focus, labels, keyboard use |
+| `browser-qa` | Browser smoke tests of the running app (localhost:5000): console errors, forms, breakpoints, a11y |
+| `architecture-decision-records` | Record design decisions as ADRs in `docs/adr/` |
 
 Left out on purpose: ECC's JS/React/Node-focused skills (`coding-standards`,
-`tdd-workflow`, `frontend-patterns`, `backend-patterns`, `e2e-testing`) and
-Postgres-specific ones.
+`tdd-workflow`, `frontend-patterns`, `backend-patterns`, `e2e-testing`,
+`frontend-a11y`), Postgres-specific ones, and `finance-billing-ops` (SaaS billing,
+not household finance). For bold visual direction, ECC itself recommends
+Anthropic's `frontend-design` skill (anthropics/skills) over its own.
 
 To refresh from upstream, re-copy the skill folders from ECC and bump `version`.
